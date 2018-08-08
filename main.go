@@ -2,8 +2,9 @@ package main
 
 import (
 	"fmt"
+	"./animals"
 )
 
 func main() {
-	fmt.Println("hello, GoLang")
+	fmt.Println(animals.DogTalk())
 }
